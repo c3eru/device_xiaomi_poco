@@ -10,6 +10,10 @@ $(call inherit-product, device/xiaomi/sm6115-common/bengal.mk)
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/xiaomi/citrus/citrus-vendor.mk)
 
+# Overlays
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay
+
 # Camera
 PRODUCT_PACKAGES += \
     libpiex_shim

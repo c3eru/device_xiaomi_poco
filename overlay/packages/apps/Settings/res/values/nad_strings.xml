@@ -1,0 +1,9 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="maintainer_name">frostg012</string>
+
+    <!-- Overlay for maintener --> 
+    <string name="github_username">frostg-012</string> 
+    <string name="telegram_username">raplhnsso</string>
+
+</resources>
