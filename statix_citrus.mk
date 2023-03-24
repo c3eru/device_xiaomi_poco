@@ -22,3 +22,7 @@ PRODUCT_BRAND := POCO
 PRODUCT_MODEL := POCO M3
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+# StatiXOS - frstprjkt
+STATIX_BUILD_TYPE := frstprjkt
+PRODUCT_DEFAULT_DEV_CERTIFICATE := vendor/frstprjkt/keys/releasekey
